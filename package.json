@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "plugins/*",
+    "components/*",
+    "projects/*"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

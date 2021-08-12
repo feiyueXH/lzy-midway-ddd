@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "components/*",
+    "plugins/*",
+    "projects/*"
+  ],
+  "bootstrap": {
+    "hoist": true,
+    "noCi": true,
+    "npmClientArgs": [
+      "--no-package-lock"
+    ]
+  },
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://packages.aliyun.com/6080f157af93cf634f4aa1c8/npm/npm-registry/"
+    }
+  },
+  "npmClient": "yarn",
+  "version": "1.0.0"
+}
