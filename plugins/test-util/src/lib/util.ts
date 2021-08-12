@@ -159,7 +159,6 @@ export const executeTest = (model: TestModel, executeOption: ExecuteOption) => {
   describe(model.name, () => {
     let app: IMidwayApplication;
     beforeAll(async () => {
-      console.log('beforeAll');
       app = await executeOption.beforeAll();
       await sleep(2000); //延时2秒 避免服务启动的时候有东西未加载完毕
     });
@@ -209,7 +208,6 @@ export const executeTest = (model: TestModel, executeOption: ExecuteOption) => {
         !!item.setCookie &&
           methods.push({ name: 'set', args: ['Cookie', item.setCookie] });
         //3、链式调用
-        console.log('app:', app);
         const result = await chainingCall(createHttpRequest(app), methods);
 
         for (const expectItem of item.expectArray) {

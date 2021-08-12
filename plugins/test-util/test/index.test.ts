@@ -43,14 +43,11 @@ const testModel: TestModel = {
 
 executeTest(testModel, {
   async beforeAll(): Promise<IMidwayApplication> {
-    console.log('beforeAll11111');
-
     let app = await createApp(
       join(__dirname, 'fixtures', 'base-app'),
       {},
       Framework
     );
-    console.log('app1111111111111111');
     return app;
   },
   async afterAll(app: IMidwayApplication): Promise<void> {

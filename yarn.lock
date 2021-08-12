@@ -6786,7 +6786,7 @@ ko-sleep@^1.0.2, ko-sleep@^1.0.3:
   dependencies:
     ms "^2.0.0"
 
-koa-bodyparser@^4.2.1:
+koa-bodyparser@^4.2.1, koa-bodyparser@^4.3.0:
   version "4.3.0"
   resolved "https://registry.nlark.com/koa-bodyparser/download/koa-bodyparser-4.3.0.tgz#274c778555ff48fa221ee7f36a9fbdbace22759a"
   integrity sha1-J0x3hVX/SPoiHufzap+9us4idZo=
@@ -7881,6 +7881,11 @@ node-releases@^1.1.73:
   version "1.1.74"
   resolved "https://registry.nlark.com/node-releases/download/node-releases-1.1.74.tgz#e5866488080ebaa70a93b91144ccde06f3c3463e"
   integrity sha1-5YZkiAgOuqcKk7kRRMzeBvPDRj4=
+
+node-zone@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.nlark.com/node-zone/download/node-zone-0.4.0.tgz#b058401a2e7c4bd34cb8cda8ee9d61360f620711"
+  integrity sha1-sFhAGi58S9NMuM2o7p1hNg9iBxE=
 
 nopt@^4.0.1:
   version "4.0.3"
