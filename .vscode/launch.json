@@ -8,7 +8,7 @@
       "name": "Midway Local",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceRoot}/projects/crm",
+      "cwd": "${workspaceRoot}/projects/test-demo",
       "runtimeExecutable": "npm",
       "windows": {
         "runtimeExecutable": "npm.cmd"

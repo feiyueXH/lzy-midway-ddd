@@ -11,7 +11,7 @@ import {
 } from '@lzy-plugin/ddd-cqrs';
 
 @Provide()
-@Controller('/crm')
+@Controller('/test-demo')
 export class CrmController extends SuperController {
   @Post('/login_or_register')
   async loginOrRegister(@Body(ALL) body: any) {
