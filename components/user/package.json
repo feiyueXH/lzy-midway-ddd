@@ -1,6 +1,6 @@
 {
-  "name": "@lzy-plugin/ddd-cqrs",
-  "version": "1.0.2",
+  "name": "@lzy-component/user",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -19,27 +19,28 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@lzy-plugin/mongo-context": "^1.0.1",
     "@midwayjs/cli": "^1.2.38",
     "@midwayjs/core": "^2.3.0",
     "@midwayjs/decorator": "^2.3.0",
+    "@midwayjs/swagger": "^1.0.7",
     "@midwayjs/web": "^2.10.9",
-    "@typegoose/typegoose": "^7.6.0",
     "@types/jest": "^26.0.10",
     "@types/node": "14",
+    "@lzy-plugin/test-util": "^1.0.0",
     "cross-env": "^6.0.0",
     "jest": "^26.4.0",
-    "mongoose": "5.10.18",
     "mwts": "^1.0.5",
+    "swagger-ui-dist": "^3.50.0",
     "ts-jest": "^26.2.0",
     "typescript": "^4.0.0"
   },
   "dependencies": {
-    "@lzy-plugin/common": "^1.0.1",
+    "@typegoose/typegoose": "^7.6.0",
+    "@lzy-plugin/ddd-cqrs": "^1.0.0",
+    "@lzy-plugin/mongo-context": "^1.0.0",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
-    "koa-bodyparser": "^4.3.0",
-    "node-zone": "^0.4.0"
-  },
-  "gitHead": "074f477cd1338953ad41ff54d82c1481d9308d89"
+    "egg": "^2.29.4",
+    "mongoose": "5.10.12"
+  }
 }

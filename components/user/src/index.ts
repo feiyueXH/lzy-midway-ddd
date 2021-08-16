@@ -1,0 +1,10 @@
+export { AutoConfiguration as Configuration } from './configuration';
+export * from './application/checker/interface';
+export * from './application/checker/impl/user.checker';
+export * from './application/command/register-user.command';
+export * from './application/command/executor/user';
+export * from './domain/aggregate/user';
+export * from './domain/event/user-created.event';
+export * from './infrastructure/db/mongo/models/user';
+export * from './web/api/user';
+export * from './application/query/executor/user';

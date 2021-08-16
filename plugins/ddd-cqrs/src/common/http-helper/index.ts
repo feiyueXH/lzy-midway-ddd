@@ -13,6 +13,7 @@ export interface IHttpResult {
 export interface IHttpContext extends IMidwayContext {
   body: IHttpResult;
   status: number;
+  cookies: any;
 }
 
 @Provide()

@@ -1,0 +1,6 @@
+node_modules
+run
+.history
+**/test/fixtures/base-app/src/config/config.default.ts
+*.log
+dist

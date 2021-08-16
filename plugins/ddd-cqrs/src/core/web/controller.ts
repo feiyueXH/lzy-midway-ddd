@@ -2,8 +2,7 @@ import { Init, Inject } from '@midwayjs/decorator';
 import { CommandBus } from '../bus/command-bus';
 import { QueryBus } from '../bus/query-bus';
 import { ILogger } from '@midwayjs/logger';
-import { HttpHelper } from '../../common/http-helper';
-import { IMidwayContext } from '@midwayjs/core';
+import { HttpHelper, IHttpContext } from '../../common/http-helper';
 import { QueryUtil } from '../cqrs/common-query';
 export class SuperController {
   httpHelper: HttpHelper;
@@ -17,7 +16,7 @@ export class SuperController {
   queryUtil: QueryUtil;
 
   @Inject()
-  ctx: IMidwayContext;
+  ctx: IHttpContext;
 
   @Init()
   async init(): Promise<void> {

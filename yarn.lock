@@ -1507,6 +1507,11 @@
     json-cycle "^1.3.0"
     mkdirp "^0.5.1"
 
+"@midwayjs/swagger@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.nlark.com/@midwayjs/swagger/download/@midwayjs/swagger-1.0.7.tgz#dd32186f370262894ed2adda8436ba9fa392d270"
+  integrity sha1-3TIYbzcCYolO0q3ahDa6n6OS0nA=
+
 "@midwayjs/web@^2.10.9", "@midwayjs/web@^2.12.3":
   version "2.12.3"
   resolved "https://registry.nlark.com/@midwayjs/web/download/@midwayjs/web-2.12.3.tgz#919b35c522099f86ef74e8d8d8644af28d8623ce"
@@ -7576,6 +7581,19 @@ mongodb@3.6.11:
   optionalDependencies:
     saslprep "^1.0.0"
 
+mongodb@3.6.2:
+  version "3.6.2"
+  resolved "https://registry.nlark.com/mongodb/download/mongodb-3.6.2.tgz#1154a4ac107bf1375112d83a29c5cf97704e96b6"
+  integrity sha1-EVSkrBB78TdREtg6KcXPl3BOlrY=
+  dependencies:
+    bl "^2.2.1"
+    bson "^1.1.4"
+    denque "^1.4.1"
+    require_optional "^1.0.1"
+    safe-buffer "^5.1.2"
+  optionalDependencies:
+    saslprep "^1.0.0"
+
 mongodb@3.6.3:
   version "3.6.3"
   resolved "https://registry.nlark.com/mongodb/download/mongodb-3.6.3.tgz#eddaed0cc3598474d7a15f0f2a5b04848489fd05"
@@ -7611,6 +7629,23 @@ mongoose@*:
     regexp-clone "1.0.0"
     safe-buffer "5.2.1"
     sift "13.5.2"
+    sliced "1.0.1"
+
+mongoose@5.10.12:
+  version "5.10.12"
+  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.10.12.tgz#74cdf9e9cb568b806cd71f703b7c2b8c4f251796"
+  integrity sha1-dM356ctWi4Bs1x9wO3wrjE8lF5Y=
+  dependencies:
+    bson "^1.1.4"
+    kareem "2.3.1"
+    mongodb "3.6.2"
+    mongoose-legacy-pluralize "1.0.2"
+    mpath "0.7.0"
+    mquery "3.2.2"
+    ms "2.1.2"
+    regexp-clone "1.0.0"
+    safe-buffer "5.2.1"
+    sift "7.0.1"
     sliced "1.0.1"
 
 mongoose@5.10.18:
@@ -10022,6 +10057,11 @@ supports-hyperlinks@^2.0.0:
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
+
+swagger-ui-dist@^3.50.0:
+  version "3.52.0"
+  resolved "https://registry.nlark.com/swagger-ui-dist/download/swagger-ui-dist-3.52.0.tgz#cb16ec6dcdf134ff47cbfe57cba7be7748429142"
+  integrity sha1-yxbsbc3xNP9Hy/5Xy6e+d0hCkUI=
 
 symbol-tree@^3.2.4:
   version "3.2.4"
